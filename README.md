@@ -3,9 +3,13 @@
 This is the repository for the 116th initiative at Barnard College. If you're reading this and your name isn't Jonathan, congratulations! Somehow this project both succeded and was able to add multiple developers.
 This READEME file is to describe the structure of the codebase and how to add future changes
 
-## Commiting changes
+## Merging changes
 
-Aside from the intial creation of the repo, all changes should start on a new branch, i.e. not main. In order to merge you'll need a code review from a peer (You do have frieeds right? right???).
+Aside from the intial creation of the repo, all changes should start on a new branch, i.e. not main. In order to merge you'll need a code review from a peer (You do have frieeds right? right???). 
+When creating new branches, use the convention "initials/branch-description". 
+e.g.
+```JN/change-donate-button```
+please try to keep the description to four words or less.
 
 ## Writing Tests
 
