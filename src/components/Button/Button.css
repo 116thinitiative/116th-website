@@ -1,0 +1,17 @@
+button {
+    background-color: #CC76A1;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: normal;
+    width: 160px;
+    height: 75px;  
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: rgba(204, 118, 161, 0.9);
+    cursor: pointer;
+}
