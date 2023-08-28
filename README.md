@@ -15,6 +15,10 @@ please try to keep the description to four words or less.
 
 TBD
 
+##Deployment
+
+At the time of writing, this site is hosted using github pages (this could change). A thorough description of how pushing to main updates the site can be found here https://github.com/sitek94/vite-deploy-demo.
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
