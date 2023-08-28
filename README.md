@@ -15,7 +15,7 @@ please try to keep the description to four words or less.
 
 TBD
 
-##Deployment
+## Deployment
 
 At the time of writing, this site is hosted using github pages (this could change). A thorough description of how pushing to main updates the site can be found here https://github.com/sitek94/vite-deploy-demo.
 
