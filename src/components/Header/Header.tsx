@@ -3,11 +3,7 @@ import Logo from '../Logo/Logo';
 import './Header.css'
 import HeaderLinks from './HeaderLinks';
 
-type HeaderProps = {
-    
-};
-
-function Header(props: HeaderProps){
+function Header(){
 
     return (
         <div className="header">

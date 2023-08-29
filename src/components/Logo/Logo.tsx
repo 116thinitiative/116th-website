@@ -1,4 +1,5 @@
 import logo from '../../assets/logo.svg'
+import './Logo.css'
 
 type LogoProps = {
     height?: string,
@@ -7,8 +8,11 @@ type LogoProps = {
 };
 
 function Logo(props: LogoProps) {
+    //for now to have home link use a element, change later
     return (
         <>
+        <a
+        href='/'>
             <img 
             src={logo} 
             className="logo" 
@@ -17,6 +21,7 @@ function Logo(props: LogoProps) {
                 width: props.width,
                 margin: props.margin,
             }}/>
+        </a>
         </>
     );
 }

@@ -4,4 +4,5 @@ body{
 
 #root{
   font-family: "JetBrains Mono";
+  overflow: scroll;
 }
