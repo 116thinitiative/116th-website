@@ -40,7 +40,7 @@ export const navLinks: navLinkItem[] = [{
     },
     {
         text: "Request Funds",
-        src: ""
+        src: "https://docs.google.com/forms/d/e/1FAIpQLSc8Cs8eqjovbJHfVpDcl0RySdQ107vwaNiYMNR64IyZ1BY3IQ/viewform"
     },],
 },
 {
