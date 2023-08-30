@@ -2,19 +2,19 @@
  * file for creating global types + variables used by tsx files
  */
 
-export type Link = {
+export type LinkType = {
     text: string,
     src: string,
 };
 
 export type navLinkItem = {
     type: "default",
-    link: Link,
+    link: LinkType,
 } | 
 {
     type: "dropdown",
     header: string, 
-    dropdownLinks: Link[]
+    dropdownLinks: LinkType[]
 };
 
 export const navLinks: navLinkItem[] = [{

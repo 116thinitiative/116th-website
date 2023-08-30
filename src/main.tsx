@@ -11,7 +11,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 //using react router for navigation
 const router = createBrowserRouter([
   {
-    path: "/116th-website",
+    path: "/116th-website/",
     element: <HomeScreen />,
     errorElement: <ErrorPage />,
   }
