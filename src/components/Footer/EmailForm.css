@@ -1,0 +1,48 @@
+.email-form{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-form form label{
+    display: block;
+}
+
+.input-box {
+    display: inline-block;
+}
+
+.email-form button {
+    font-family: "JetBrains Mono";
+    font-size: 1rem;
+    height: 40px;
+    width: 130px;
+    border-radius: 0;
+    background-color: #D9D9D9;
+    color: black;
+    display: inline-block;
+    vertical-align: bottom
+}
+
+.email-form button:hover {
+    background-color: rgba(217, 217, 217, 0.9);
+    cursor: pointer;
+}
+
+.email-form form input{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono";
+
+    width: 250px;
+    height: 40px;
+    padding: 8px;
+}
+
+.email-form form input::placeholder{
+    color: #A5A5A5;
+    font-family: "JetBrains Mono";
+}
+
