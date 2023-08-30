@@ -4,6 +4,7 @@ import Dropdown from '../Dropdown/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom'
 
 type HeaderLinksProps = {
     links: navLinkItem[],
@@ -20,9 +21,9 @@ function HeaderLinks(props: HeaderLinksProps) {
                     <li 
                     key={link.link.text}
                     className='default-item'>
-                        <a href={link.link.src}>
+                        <Link to={link.link.src}>
                             {link.link.text}
-                        </a>
+                        </Link>
                     </li> :
                     <li 
                     key={link.header}
@@ -33,14 +34,14 @@ function HeaderLinks(props: HeaderLinksProps) {
                     </li>);
                 })}
                 <li key="instagram">
-                    <a 
-                    href="https://www.instagram.com/the116thinitiative"
+                    <Link 
+                    to="https://www.instagram.com/the116thinitiative"
                     target="_blank">
                         <FontAwesomeIcon 
                         icon={faInstagram} 
                         style={{color: "#000000",}}
                         className='instagram-icon' />
-                    </a>
+                    </Link>
                 </li>
                 <li>
                     <Button text="Donate" 
