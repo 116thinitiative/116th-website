@@ -61,8 +61,5 @@
     .footer-links{
         height: fit-content;
     }
-    .footer-links ul{
-        flex-direction: column;
-    }
 }
 
