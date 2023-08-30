@@ -1,5 +1,6 @@
 import logo from '../../assets/logo.svg'
 import './Logo.css'
+import { Link } from 'react-router-dom'
 
 type LogoProps = {
     height?: string,
@@ -11,8 +12,8 @@ function Logo(props: LogoProps) {
     //for now to have home link use a element, change later
     return (
         <>
-        <a
-        href='/'>
+        <Link
+        to='/116th-website/'>
             <img 
             src={logo} 
             className="logo" 
@@ -21,7 +22,7 @@ function Logo(props: LogoProps) {
                 width: props.width,
                 margin: props.margin,
             }}/>
-        </a>
+        </Link>
         </>
     );
 }

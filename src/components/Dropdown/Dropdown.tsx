@@ -1,9 +1,10 @@
-import { Link } from '../../shared/globals';
+import { LinkType } from '../../shared/globals';
+import { Link } from 'react-router-dom'
 import './Dropdown.css'
 
 type DropdownProps = {
     header: string,
-    links: Link[],
+    links: LinkType[],
     headerFontSize?: string,
     linksFontSize?: string,
 };
@@ -23,13 +24,13 @@ function Dropdown(props: DropdownProps){
                     {props.links.map((link) => {
                         return (
                         <li key={link.text}>
-                            <a 
-                            href={link.src}
+                            <Link 
+                            to={link.src}
                             style={{
                                 fontSize: props.linksFontSize,
                             }}>
                                 {link.text}
-                            </a>
+                            </Link>
                         </li>)
                     })}
                 </ul>
