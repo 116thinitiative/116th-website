@@ -1,6 +1,14 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+  color: #121212;
+}
 body{
   background-color: #52b6db;
 }
+
 
 #root{
   font-family: "JetBrains Mono";

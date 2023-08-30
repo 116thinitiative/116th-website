@@ -23,7 +23,7 @@
 
 .dropdown-content ul {
     list-style-type: none;
-    display: block;
+    display: block !important;
     padding: 0;
 }
 
