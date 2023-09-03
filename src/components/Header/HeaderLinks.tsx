@@ -44,7 +44,8 @@ function HeaderLinks(props: HeaderLinksProps) {
                     </Link>
                 </li>
                 <li>
-                    <Button text="Donate" 
+                    <Button 
+                    text="Donate" 
                     onClick={() => 
                     window.open("https://account.venmo.com/u/the116thinitiative")}
                     />
