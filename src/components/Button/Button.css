@@ -13,6 +13,6 @@ button {
     font-family: 'JetBrains Mono';
 }
 button:hover {
-    background-color: rgba(0, 74, 173, 0.95);
+    background-color: rgba(0, 74, 173, 0.9);
     cursor: pointer;
 }

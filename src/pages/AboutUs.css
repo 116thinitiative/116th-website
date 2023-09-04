@@ -1,0 +1,78 @@
+.about-us-description{
+    width: 100%;
+    height: fit-content;
+    padding: 20vw;
+    padding-top: 5vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.about-us-description .description-container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    height: fit-content;
+}
+
+.about-us-description .about-us-body img{
+    max-width: 30vw;
+    cursor: default;
+    margin: 20px;
+}
+
+.about-us-description .about-us-body #need-image, 
+.about-us-description .about-us-body #impact-image{
+    float: right;
+}
+
+.about-us-description .about-us-body #services-image{
+    float: left;
+}
+
+.video-section{
+    width: 100%;
+    height: fit-content;
+    background-color: #004AAD;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+
+.video-section h1{
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.video-section video {
+    max-width: 70vw;
+    flex: 1 1 auto;
+}
+.video-section p{
+    text-align: center;
+    display: inline-block;
+}
+
+.video-section a{
+    color: white;
+    text-decoration: underline;
+}
+
+.video-section a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+    .about-us-description .about-us-body img{
+        max-width: 70vw;
+    }
+}
+

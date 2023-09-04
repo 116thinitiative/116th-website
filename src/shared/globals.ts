@@ -21,7 +21,7 @@ export const navLinks: navLinkItem[] = [{
     type: "default",
     link: {
         text: "About",
-        src: ""
+        src: "/116th-website/about-us"
     },
 },
 {
