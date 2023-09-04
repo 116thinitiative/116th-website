@@ -258,5 +258,13 @@
     .landing-image li {
         display: flex;
     }
+    #gallery-section .gallery{
+        flex-direction: column;
+        flex-flow: none;
+    }
+
+    #gallery-section .gallery img{
+        max-width: 100%;
+    }
 }
 

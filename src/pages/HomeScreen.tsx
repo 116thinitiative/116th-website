@@ -13,9 +13,10 @@ import galleryImage2 from '../assets/images/galleryimage2.jpeg'
 import galleryImage3 from '../assets/images/galleryimage3.jpg'
 import galleryImage4 from '../assets/images/galleryimage4.jpg'
 import galleryImage5 from '../assets/images/galleryimage5.jpeg'
+import { useNavigate } from 'react-router-dom';
 
 function HomeScreen() {
-    
+
     return (
         <>
             <Header />
