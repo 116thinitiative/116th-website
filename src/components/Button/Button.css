@@ -1,5 +1,5 @@
 button {
-    background-color: #CC76A1;
+    background-color: #004AAD;
     color: white;
     text-align: center;
     font-size: 1.2rem;
@@ -10,8 +10,9 @@ button {
     border: none;
     border-radius: 10px;
     transition: 0.2s;
+    font-family: 'JetBrains Mono';
 }
 button:hover {
-    background-color: rgba(204, 118, 161, 0.9);
+    background-color: rgba(0, 74, 173, 0.95);
     cursor: pointer;
 }

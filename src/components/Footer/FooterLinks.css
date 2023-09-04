@@ -54,12 +54,16 @@
     .footer-links ul{
         font-size: 0.6em;
         gap: 20px;
+        flex-direction: column;
     }
 }
 
 @media only screen and (max-width: 650px){
     .footer-links{
         height: fit-content;
+    }
+    .footer-links ul{
+        flex-direction: column;
     }
 }
 

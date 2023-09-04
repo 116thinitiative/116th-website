@@ -1,11 +1,12 @@
 .header {
+    z-index: 2;
     width: 100%;
     min-width: 220px;
     height: 120px;
     padding: 10px;
     top: 0;
-    left: 0;
-    right: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
     box-sizing: border-box;
     
     
@@ -14,14 +15,38 @@
     justify-content: space-between;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: rgb(255, 255, 255, 0.95);
-    position: fixed;
+    background-color: rgb(255, 255, 255, 1)
 }
+
+.header .logo-and-menu{
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header .icon-holder {
+    display: none;
+}
+
 
 @media screen and (max-width: 900px){
     .header{
         font-size: 0.8em;
-        flex-direction: column;
         overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header{
+        overflow: hidden;
+        flex-direction: column;
+        height: 20vh;
+        padding: 0px;
+    }
+    .header .icon-holder {
+        display: block;
+        cursor: pointer;
     }
 }
