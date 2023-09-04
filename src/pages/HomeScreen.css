@@ -40,11 +40,6 @@
     box-sizing: border-box;
 }
 
-.section-border{
-    height: 35vh;
-    width: 100%;
-}
-
 #description-section {
     display: flex;
     align-items: center;
