@@ -2,10 +2,18 @@ import './HomeScreen.css'
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import { HashLink as ScrollLink } from 'react-router-hash-link';
-import descriptionImage from '../assets/images/description-image.jpeg'
-import tuitionImage from '../assets/images/tuition-assistance.jpg'
 import Button from '../components/Button/Button';
 import QuoteCard from '../components/QuoteCard/QuoteCard';
+
+import descriptionImage from '../assets/images/description-image.jpeg'
+import tuitionImage from '../assets/images/tuition-assistance.jpg'
+import galleryImage1 from '../assets/images/galleryimage1.jpg'
+import communityClosetImage from '../assets/images/Community Closet.jpg'
+import galleryImage2 from '../assets/images/galleryimage2.jpeg'
+import galleryImage3 from '../assets/images/galleryimage3.jpg'
+import galleryImage4 from '../assets/images/galleryimage4.jpg'
+import galleryImage5 from '../assets/images/galleryimage5.jpeg'
+
 function HomeScreen() {
     
     return (
@@ -50,6 +58,11 @@ function HomeScreen() {
                     </div>
                 </div>
             </div>
+            <div 
+            className='section-border'
+            style={{
+                background:"linear-gradient(#52B6DB, #1C52A6)" 
+            }}/>
             <div className='section-divider' 
             id='tuition-section'>
                 <div className='tuition-container'>
@@ -71,6 +84,11 @@ function HomeScreen() {
                     />
                 </div>
             </div>
+            <div 
+            className='section-border'
+            style={{
+                background:"linear-gradient(#1C52A6, #4495DF)" 
+            }}/>
             <div className='section-divider'
             id='impact-section'>
                 <h1>Our Impact</h1>
@@ -87,8 +105,22 @@ function HomeScreen() {
                     text='"Basically I`m a low income student (pell grant eligible) and my dad is sick with stage 4 cancer. Recently we learned my dad`s cancer has metastasized to his brain…and he is unable to do a lot of daily tasks on his own, and so my household really needs extra support from me right now. I will be going home for four weekends in the next month and a half to be with him and to help out my family. Unfortunately, this means that I have to pay for round trip train tickets every time I go home and it costs $40 each time I go home. $160 could pay for 4 trips home for me and it would be really helpful to have a little extra money to finance this transportation over the next month and a half so I don`t have to worry about this expense on top of everything else I`ve been going through mentally because of my dad`s illness. I would be eternally grateful for the financial support for this!"'/>
                 </div>
             </div>
+            <div 
+            className='section-border'
+            style={{
+                background:"linear-gradient(#4495DF, #FFFFFF)" 
+            }}/>
             <div className='section-divider'
-            id='posts-section'>
+            id='gallery-section'>
+                <h1>Gallery</h1>
+                <div className='gallery'>
+                        <img src={communityClosetImage}/>
+                        <img src={galleryImage2}/>
+                        <img src={galleryImage1}/>
+                        <img src={galleryImage3}/>
+                        <img src={galleryImage5}/>
+                        <img src={galleryImage4}/>
+                </div>
 
             </div>
             <Footer />
