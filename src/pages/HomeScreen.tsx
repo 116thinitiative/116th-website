@@ -33,8 +33,8 @@ function HomeScreen() {
                         <li><ScrollLink smooth to="#impact-section">
                             <h1>How We Help</h1>
                         </ScrollLink></li>
-                        <li><ScrollLink smooth to="#posts-section">
-                            <h1>Latest Posts</h1>
+                        <li><ScrollLink smooth to="#gallery-section">
+                            <h1>Gallery</h1>
                         </ScrollLink></li>
                     </ul>
                 </div>
