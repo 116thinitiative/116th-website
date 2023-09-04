@@ -21,7 +21,7 @@ function Header(){
                 }}>
                     <FontAwesomeIcon 
                     icon={faChevronUp}
-                    size='2xs'
+                    size='xl'
                     style={{
                         transform:"rotate(180deg)",
                     }}
