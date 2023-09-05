@@ -50,3 +50,13 @@
     background: -moz-linear-gradient(transparent, white);
     background: linear-gradient(transparent, white);
 }
+
+@media only screen and (max-width: 520px){
+    .publications-card h1{
+        font-size: 1.5rem;
+    }
+
+    .publications-card h2{
+        font-size: 1.0rem;
+    }
+}
