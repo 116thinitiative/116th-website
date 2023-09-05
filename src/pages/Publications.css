@@ -1,0 +1,17 @@
+.publications-container{
+    width: 100%;
+    height: fit-content;
+    background-color: #B8D3E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 520px){
+    .image-title-container h1{
+        font-size: 2.0rem;
+    }
+}

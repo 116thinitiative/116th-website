@@ -8,6 +8,7 @@ import HomeScreen from './pages/HomeScreen'
 import ErrorPage from './pages/ErrorPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutUs from './pages/AboutUs';
+import Publications from './pages/Publications';
 
 //using react router for navigation
 const router = createBrowserRouter([
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
   {
     path: "/116th-website/about-us",
     element: <AboutUs />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/116th-website/publications",
+    element: <Publications />,
     errorElement: <ErrorPage />,
   }
 ]);
