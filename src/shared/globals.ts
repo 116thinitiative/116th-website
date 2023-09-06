@@ -60,7 +60,7 @@ export const navLinks: navLinkItem[] = [{
 ];
 
 export const publications: PublicationsCardProps[] =[{
-    title:'Affirmitive Action Statement',
+    title:'Affirmative Action Statement',
     publishedWhere:'Bwog Article',
     preview:'Leaders at Columbia and Barnard have begun to respond after the Supreme Court’s June 29 ruling that race-conscious college admissions policies are in violation of the Fourteenth Amendment’s Equal Protection Clause. The ruling, made in two companion cases filed by the group Students for Fair Admission against both Harvard and the University of North Carolina, Chapel Hill, effectively struck down affirmative action programs. In the hours after the ruling, both Columbia College Dean Josef Sorrett and Barnard President Laura Rosenbury made statements to their respective student bodies, the full texts of which can be found below. In Rosenbury’s email to students, the newly-inaugurated president stated that, “For the past several months, leaders at the College have been meeting to anticipate and plan for what this ruling might require of us to adapt and fulfill our mission to build a richly diverse student body,” and said the college will continue to provide updates about its strategy moving forward. Similarly, Dean Sorrett shared Columbia’s official statement, and wrote that the college “remain[s] committed to fostering and sustaining a diverse community of students as a core value central to our mission.”',
     to:'https://bwog.com/2023/07/columbia-community-responds-as-scotus-strikes-down-affirmative-action/',             
