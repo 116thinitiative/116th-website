@@ -1,0 +1,81 @@
+.contact-us-container{
+    width: 100%;
+    height: fit-content;
+
+    padding: 50px;
+
+    background-color: #4062BB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.form-submitted{
+    color:white;
+    max-height: 200px;
+    max-width: 400px;
+    background-color: rgba(128, 128, 128, 0.932);
+    padding: 30px;
+    position: absolute;
+}
+
+#fadeOut{
+    opacity: 0;
+    transition: opacity 1s ease;
+
+}
+#fadeIn{
+    transition: opacity 1s ease;
+
+}
+
+.contact-us-container .send-email-container form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us-container .send-email-container h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-us-container .send-email-container label{
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+
+.send-email-container form input,
+.send-email-container form #message{
+    border: none;
+    border-radius: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono";
+
+    width: 50vw;
+    padding: 8px;
+}
+
+.send-email-container form #message{
+    height: 50vh;
+    width: 70vw;
+    overflow: scroll;
+    padding: 10px;
+}
+
+.send-email-container form button{
+    margin-top: 30px;
+    background-color: black;
+}
+
+.send-email-container form button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+

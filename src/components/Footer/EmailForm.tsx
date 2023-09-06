@@ -27,11 +27,10 @@ function EmailForm(){
         
         setLoading(true);
         setButtonText("");
-        axios.post('https://sheet.best/api/sheets/62d835d5-85d8-4d92-a94a-f729c94a7b65', {email: inputText})
-        .then(response => {
-          console.log(response);
-        }).catch((error) =>{
-            throw new Error(error.toJSON());
+        console.log(import.meta.env.VITE_SUBSCRIBE_EMAIL_URL);
+        axios.post(import.meta.env.VITE_SUBSCRIBE_EMAIL_URL, {email: inputText})
+        .catch((error) =>{
+            throw new Error(error.message);
         }).finally(() =>{
             setLoading(false);
             setInputText("");
@@ -52,7 +51,8 @@ function EmailForm(){
                     type="email" 
                     placeholder='Enter Email'
                     onChange={handleChange}
-                    value={inputText}/>  
+                    value={inputText}
+                    required/>  
                     <button type="submit">{buttonText}
                     <ClipLoader
                         color={"#000000"}
