@@ -10,6 +10,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutUs from './pages/AboutUs';
 import Publications from './pages/Publications';
 import ContactUs from './pages/ContactUs';
+import ScrollToTop from './ScrollToTop';
 
 //using react router for navigation
 const router = createBrowserRouter([
@@ -17,21 +18,25 @@ const router = createBrowserRouter([
     path: "/116th-website/",
     element: <HomeScreen />,
     errorElement: <ErrorPage />,
+    loader: ScrollToTop
   },
   {
     path: "/116th-website/about-us",
     element: <AboutUs />,
     errorElement: <ErrorPage />,
+    loader: ScrollToTop
   },
   {
     path: "/116th-website/publications",
     element: <Publications />,
     errorElement: <ErrorPage />,
+    loader: ScrollToTop
   },
   {
     path: "/116th-website/contact-us",
     element: <ContactUs />,
     errorElement: <ErrorPage />,
+    loader: ScrollToTop
   }
 ]);
 
