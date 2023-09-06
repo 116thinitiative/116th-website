@@ -35,7 +35,7 @@ export const navLinks: navLinkItem[] = [{
     type: "default",
     link: {
         text: "Contact Us",
-        src: ""
+        src: "/116th-website/contact-us"
     },
 },
 {

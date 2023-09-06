@@ -9,6 +9,7 @@ import ErrorPage from './pages/ErrorPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutUs from './pages/AboutUs';
 import Publications from './pages/Publications';
+import ContactUs from './pages/ContactUs';
 
 //using react router for navigation
 const router = createBrowserRouter([
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
   {
     path: "/116th-website/publications",
     element: <Publications />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/116th-website/contact-us",
+    element: <ContactUs />,
     errorElement: <ErrorPage />,
   }
 ]);
