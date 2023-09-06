@@ -19,6 +19,10 @@ TBD
 
 At the time of writing, this site is hosted using github pages (this could change). A thorough description of how pushing to main updates the site can be found here https://github.com/sitek94/vite-deploy-demo.
 
+## Pushing New Branches
+
+Before you push a new branch run ```npm run build``` which builds the site for development, turning all of your react and typescript code into javascript.
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
