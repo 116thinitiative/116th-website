@@ -17,13 +17,6 @@ export type navLinkItem = {
     dropdownLinks: LinkType[]
 };
 
-export type PublicationsCardProps = {
-    title: string,
-    publishedWhere: string,
-    preview: string,
-    to: string,
-};
-
 export const navLinks: navLinkItem[] = [{
     type: "default",
     link: {
@@ -54,10 +47,17 @@ export const navLinks: navLinkItem[] = [{
     type: "default",
     link: {
         text: "Events",
-        src: ""
+        src: "/116th-website/events"
     },
 },
 ];
+
+export type PublicationsCardProps = {
+    title: string,
+    publishedWhere: string,
+    preview: string,
+    to: string,
+};
 
 export const publications: PublicationsCardProps[] =[{
     title:'Affirmative Action Statement',
@@ -79,3 +79,26 @@ export const publications: PublicationsCardProps[] =[{
 },
 
 ]
+
+export type EventCardType = {
+    title: string,
+    date: Date,
+    description: string,
+    location?: string
+}
+
+export const eventCards: EventCardType[] = [{
+    title:"Potluck Picnic",
+    date: new Date(2023, 9, 24),
+    description:"Join 116th at our first official meeting of the year! Bring your snacks, bring your friends, and bring yourself! We’ll be chatting about what the 116th Initiative is, who we are, what we aim to do and ways you can get involved/help out. Copies of our zine will also be available for purchase (all sales go straight to the mutual aid fund)!"
+},
+{
+    title:"Community Closet Sort and Pop-Up",
+    date: new Date(2023, 10, 7),
+    description:"Hosted alongside the Columbia First-Generation Low Income Network and the Columbia Housing Equity Project, students – specifically those that face financial burdens – are invited to bring in their clothes and exchange them with others. This event provides a welcoming and non-judgemental way for them to get assistance, while encouraging cyclicality on campus. Many students are able to find stylish and unique pieces that reaffirm their identities and help them make friends in the process!"
+},
+{
+    title:"Art Fair",
+    date: new Date(2023, 12, 2),
+    description:"A fundraiser for the Mutual Aid Fund where we invite local artists, designers and performers to sell their goods all in one place and donate a portion of their proceeds to the initiative. "
+}]
