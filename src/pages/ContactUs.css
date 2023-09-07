@@ -58,13 +58,12 @@
     box-sizing: border-box;
     font-family: "JetBrains Mono";
 
-    width: 50vw;
+    width: 40vw;
     padding: 8px;
 }
 
 .send-email-container form #message{
-    height: 50vh;
-    width: 70vw;
+    height: 200px;
     overflow: scroll;
     padding: 10px;
 }
@@ -77,5 +76,12 @@
 .send-email-container form button:hover {
     background-color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
+}
+
+@media screen and (max-width: 550px){
+    .send-email-container form input,
+    .send-email-container form #message{
+        width: 60vw;
+    }
 }
 
