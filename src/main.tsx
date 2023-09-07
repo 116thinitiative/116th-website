@@ -16,7 +16,7 @@ import Events from './pages/Events';
 //using react router for navigation
 const router = createBrowserRouter([
   {
-    path: "/116th-website/",
+    path: "/",
     element: <HomeScreen />,
     errorElement: <ErrorPage />,
     loader: ScrollToTop
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     loader: ScrollToTop
   }
-]);
+], {basename: import.meta.env.BASE_URL});
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>

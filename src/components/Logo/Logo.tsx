@@ -13,7 +13,7 @@ function Logo(props: LogoProps) {
     return (
         <>
         <Link
-        to='/116th-website/'>
+        to='/'>
             <img 
             src={logo} 
             className="logo" 
