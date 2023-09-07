@@ -22,25 +22,25 @@ const router = createBrowserRouter([
     loader: ScrollToTop
   },
   {
-    path: "/116th-website/about-us",
+    path: "/about-us",
     element: <AboutUs />,
     errorElement: <ErrorPage />,
     loader: ScrollToTop
   },
   {
-    path: "/116th-website/publications",
+    path: "/publications",
     element: <Publications />,
     errorElement: <ErrorPage />,
     loader: ScrollToTop
   },
   {
-    path: "/116th-website/contact-us",
+    path: "/contact-us",
     element: <ContactUs />,
     errorElement: <ErrorPage />,
     loader: ScrollToTop
   },
   {
-    path: "/116th-website/events",
+    path: "/events",
     element: <Events />,
     errorElement: <ErrorPage />,
     loader: ScrollToTop

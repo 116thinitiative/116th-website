@@ -21,14 +21,14 @@ export const navLinks: navLinkItem[] = [{
     type: "default",
     link: {
         text: "About",
-        src: "/116th-website/about-us"
+        src: "/about-us"
     },
 },
 {
     type: "default",
     link: {
         text: "Contact Us",
-        src: "/116th-website/contact-us"
+        src: "/contact-us"
     },
 },
 {
@@ -36,7 +36,7 @@ export const navLinks: navLinkItem[] = [{
     header: "Resources",
     dropdownLinks: [{
         text: "Publications",
-        src: "/116th-website/publications"
+        src: "/publications"
     },
     {
         text: "Request Funds",
@@ -47,7 +47,7 @@ export const navLinks: navLinkItem[] = [{
     type: "default",
     link: {
         text: "Events",
-        src: "/116th-website/events"
+        src: "/events"
     },
 },
 ];

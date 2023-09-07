@@ -55,7 +55,7 @@ function HomeScreen() {
                         <Button 
                         text="Learn More"
                         onClick={()=>{
-                            navigate("/116th-website/about-us");
+                            navigate("/about-us");
                         }}
                         />
                     </div>
