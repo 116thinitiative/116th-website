@@ -23,11 +23,9 @@ function EmailForm(){
     //this on submit function uses a post request to add the user email to the google sheets
     const onSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
-        console.log(inputText);
         
         setLoading(true);
         setButtonText("");
-        console.log(import.meta.env.VITE_SUBSCRIBE_EMAIL_URL);
         axios.post(import.meta.env.VITE_SUBSCRIBE_EMAIL_URL, {Email: inputText})
         .catch((error) =>{
             throw new Error(error.message);
