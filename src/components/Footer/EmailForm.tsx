@@ -28,7 +28,7 @@ function EmailForm(){
         setLoading(true);
         setButtonText("");
         console.log(import.meta.env.VITE_SUBSCRIBE_EMAIL_URL);
-        axios.post(import.meta.env.VITE_SUBSCRIBE_EMAIL_URL, {email: inputText})
+        axios.post(import.meta.env.VITE_SUBSCRIBE_EMAIL_URL, {Email: inputText})
         .catch((error) =>{
             throw new Error(error.message);
         }).finally(() =>{

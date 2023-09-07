@@ -70,7 +70,8 @@ function ContactUs(){
             </div>
             <div className='send-email-container'>
                 <Form id="send-email-form" ref={form} onSubmit={sendEmail}>
-                    <h1>Send Us a Message!</h1>
+                    <h1>Send Us a Message!*</h1>
+                    <p><em>*Note: this form is for general inquiries only, any tuition assistance requests should be filled out on our google form under the Resources tab.</em></p>
                     <label>Name:</label>
                     <input 
                     type="text"
