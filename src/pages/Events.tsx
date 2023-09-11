@@ -27,8 +27,10 @@ function Events(){
                     return (
                         <EventCard 
                         title={card.title}
-                        date={card.date}
-                        description={card.description}/>
+                        startDate={card.startDate}
+                        endDate={card.endDate}
+                        description={card.description}
+                        location={card.location}/>
                     )
                 })}
             </div>
