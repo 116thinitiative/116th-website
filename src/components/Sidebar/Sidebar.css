@@ -1,0 +1,57 @@
+.request {
+    width: 150px;
+    position:fixed;
+    bottom:200px;
+    left: 30px;
+    filter: drop-shadow(-2px 2px 2px gray);
+}
+
+.request:hover {
+    filter: saturate(1.2) hue-rotate(65deg) drop-shadow(-2px 2px 2px #A8008F);
+    transition: 0.5s;
+}
+
+.donate {
+    width: 150px;
+    position:fixed;
+    bottom: 32px;
+    left: 30px;
+    filter: drop-shadow(-2px 2px 2px gray);
+}
+
+.donate:hover {
+    filter: saturate(1.2) hue-rotate(65deg) drop-shadow(-2px 2px 2px #A8008F);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 700px){
+    .request {
+    display: none;
+    }
+    .donate {
+    display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .request {
+    width: 16.7%;
+    left: 3.3%;
+
+    }
+    .donate {
+    width: 16.7%;
+    left:3.3%;
+    }
+}
+@media screen and (max-height: 480px) {
+    .request {
+    display: none;
+
+    }
+    .donate {
+    display: none;
+    }
+}
+
+

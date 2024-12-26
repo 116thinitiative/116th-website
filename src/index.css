@@ -1,20 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+::selection {
+	background: #A8008F;
+	color:#fdfdfd;
+  }
 html,
 body,
 #root {
+  
   min-height: 100vh;
   margin: 0;
   line-height: 1.5;
-  color: #121212;
+  color: #3B57A7;
+  background-color: #fdfdfd;
+  font-family: "Inter", Helvetica, sans-serif;
 }
 
-#root{
-  font-family: "JetBrains Mono";
-  contain: paint;
-  min-height: 100vh;
-  
-  background-color: #52b6db;
+#root {
+
+  /*contain: paint;
+  min-height: 100vh;*/
 }
 
-h1, h2, p{
+h1, h2, p {
   margin: 0px;
 }

@@ -1,17 +1,30 @@
 .publications-container{
-    width: 100%;
+    /*width: 100%;
     height: fit-content;
-    background-color: #B8D3E4;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
     padding: 100px;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
+    clear:right;
+    padding-top: 24px;
 }
 
-@media only screen and (max-width: 520px){
-    .image-title-container h1{
-        font-size: 2.0rem;
+.heading {
+    padding-bottom: 24px;
+}
+
+.pubs-image {
+    width: 569px;
+    position:relative;
+    float: right;
+    border-radius: 20px;
+    right: 10%;
+}
+
+@media only screen and (max-width: 900px){
+    .pubs-image {
+        width: 63.2%;
     }
 }

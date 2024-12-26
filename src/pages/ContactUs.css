@@ -1,87 +1,32 @@
-.contact-us-container{
-    width: 100%;
-    height: fit-content;
-
-    padding: 50px;
-
-    background-color: #4062BB;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+body {
+    padding-top: 100px;
 }
 
-.form-submitted{
-    color:white;
-    max-height: 200px;
-    max-width: 400px;
-    background-color: rgba(128, 128, 128, 0.932);
-    padding: 30px;
-    position: absolute;
+.contacttext {
+    padding-bottom: 24px;
 }
 
-#fadeOut{
-    opacity: 0;
-    transition: opacity 1s ease;
-
-}
-#fadeIn{
-    transition: opacity 1s ease;
-
+a {
+    color: #3B57A7;
+    transition: 0.2s;
 }
 
-.contact-us-container .send-email-container form{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+a:hover {
+    color: #A8008F;
 }
 
-.contact-us-container .send-email-container h1{
-    font-size: 2.5rem;
-    text-align: center;
-    margin-top: 50px;
+.contactimg {
+    width: 569px;
+    position:relative;
+    float: right;
+    right: 10%;
+    border-radius: 20px;
 }
 
-.contact-us-container .send-email-container label{
-    font-size: 1.8rem;
-    margin-top: 30px;
-}
-
-.send-email-container form input,
-.send-email-container form #message{
-    border: none;
-    border-radius: 0;
-    outline: none;
-    box-sizing: border-box;
-    font-family: "JetBrains Mono";
-
-    width: 40vw;
-    padding: 8px;
-}
-
-.send-email-container form #message{
-    height: 200px;
-    overflow: scroll;
-    padding: 10px;
-}
-
-.send-email-container form button{
-    margin-top: 30px;
-    background-color: black;
-}
-
-.send-email-container form button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-    cursor: pointer;
-}
-
-@media screen and (max-width: 550px){
-    .send-email-container form input,
-    .send-email-container form #message{
-        width: 60vw;
+@media screen and (max-width: 900px){
+    .contactimg {
+        width: 63.2%;
     }
+    
 }
 

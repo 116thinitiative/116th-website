@@ -1,6 +1,7 @@
 import './Events.css'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
+import Sidebar from '../components/Sidebar/Sidebar';
 import ImageTitle from '../components/ImageTitle/ImageTitle';
 import eventsImage from '../assets/images/events.jpg'
 import EventCard from '../components/EventCard/EventCard';
@@ -10,6 +11,12 @@ function Events(){
     return (
         <>
             <Header />
+            <Sidebar /> 
+            <div className='blurb'><p>Events</p>
+            <br></br>
+            <p>Page under construction—check back soon...</p>
+            </div>
+            {/*
             <ImageTitle 
             title="Events"
             image={eventsImage}/>
@@ -33,7 +40,7 @@ function Events(){
                         location={card.location}/>
                     )
                 })}
-            </div>
+            </div> */}
             <Footer />
         </>
     );

@@ -1,14 +1,11 @@
 .footer-links {
     margin-right: 30px;
     font-size: 1.2rem;
-    color: white;
 }
 
 .footer-links ul{
     list-style-type: none;
-
     display: flex;
-    align-items: center;
     gap: 35px;
 }
 
@@ -23,12 +20,16 @@
 }
 
 .footer-links a {
-    text-decoration: none;
-    color: white;
+    color: #3B57A7;
     transition: 0.2s;
+    font-weight: 500;
+    font-size: 15px;
 }
 
-.footer-links .default-item:after {
+.footer-links a:hover {
+    color: #A8008F;
+}
+/*.footer-links .default-item:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -36,7 +37,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: white;
+    background-color: #3B57A7;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -44,26 +45,16 @@
 .footer-links .default-item:hover:after{
    transform: scaleX(0);
    transform-origin: bottom left;
- }
+ }*/
 
-.instagram-icon{
-    height: 30px;
-}
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 650px){
     .footer-links ul{
         font-size: 0.6em;
         gap: 20px;
         flex-direction: column;
+        padding-bottom: 10px;
+    } .footer-links li {
+        height: 10px;
     }
 }
-
-@media only screen and (max-width: 650px){
-    .footer-links{
-        height: fit-content;
-    }
-    .footer-links ul{
-        flex-direction: column;
-    }
-}
-

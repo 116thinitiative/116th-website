@@ -1,11 +1,9 @@
 import './FooterLinks.css'
-import { navLinkItem } from '../../shared/globals';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { footerLinkItem } from '../../shared/globals';
 import { Link } from 'react-router-dom';
 
 type FooterLinksProps = {
-    links: navLinkItem[],
+    links: footerLinkItem[],
     margin?: string,
 };
 
@@ -15,7 +13,7 @@ function FooterLinks(props: FooterLinksProps) {
         <div className='footer-links'>
             <ul>
                 {props.links.map((link) =>{
-                    return (link.type === "default" ? 
+                    return (link.type == "default" ? 
                     <li 
                     key={link.link.text}
                     className='default-item'>
@@ -33,16 +31,6 @@ function FooterLinks(props: FooterLinksProps) {
                         </Link>
                     </li>);
                 })}
-                <li key="instagram">
-                    <Link 
-                    to="https://www.instagram.com/the116thinitiative"
-                    target="_blank">
-                        <FontAwesomeIcon 
-                        icon={faInstagram} 
-                        style={{color: "#FFFFFF",}}
-                        className='instagram-icon' />
-                    </Link>
-                </li>
             </ul>
         </div>
     );

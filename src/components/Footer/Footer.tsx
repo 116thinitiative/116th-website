@@ -1,5 +1,4 @@
-import { navLinks } from '../../shared/globals';
-import EmailForm from './EmailForm';
+import { footerLinks } from '../../shared/globals';
 import './Footer.css'
 import FooterLinks from './FooterLinks';
 
@@ -7,8 +6,7 @@ function Footer(){
 
     return (
         <div className='footer'>
-            <FooterLinks links={navLinks}/>
-            <EmailForm />
+            <FooterLinks links={footerLinks}/>
         </div>
     );
 }

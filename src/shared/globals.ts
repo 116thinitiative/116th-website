@@ -2,6 +2,8 @@
  * file for creating global types + variables used by tsx files
  */
 
+import { ReactNode } from 'react';
+
 export type LinkType = {
     text: string,
     src: string,
@@ -10,13 +12,7 @@ export type LinkType = {
 export type navLinkItem = {
     type: "default",
     link: LinkType,
-} | 
-{
-    type: "dropdown",
-    header: string, 
-    dropdownLinks: LinkType[]
-};
-
+} ;
 export const navLinks: navLinkItem[] = [{
     type: "default",
     link: {
@@ -27,21 +23,17 @@ export const navLinks: navLinkItem[] = [{
 {
     type: "default",
     link: {
-        text: "Contact Us",
+        text: "Contact",
         src: "/contact-us"
     },
 },
 {
-    type: "dropdown",
-    header: "Resources",
-    dropdownLinks: [{
-        text: "Publications",
+    type: "default",
+    link: {
+        text: "Press & Media",
         src: "/publications"
     },
-    {
-        text: "Request Funds",
-        src: "https://docs.google.com/forms/d/e/1FAIpQLSc8Cs8eqjovbJHfVpDcl0RySdQ107vwaNiYMNR64IyZ1BY3IQ/viewform"
-    },],
+   
 },
 {
     type: "default",
@@ -52,29 +44,68 @@ export const navLinks: navLinkItem[] = [{
 },
 ];
 
+export type footerLinkItem = {
+    type: "default",
+    link: LinkType,
+} | 
+{
+    type: "dropdown",
+    header: string, 
+    dropdownLinks: LinkType[]
+};
+
+export const footerLinks: footerLinkItem[] = [{
+    type: "default",
+    link: {
+        text: "Instagram",
+        src: "https://www.instagram.com/the116thinitiative/"
+    },
+}, { type: "default",
+    link: {
+        text: "Linktree",
+        src: "https://linktr.ee/barnardmutualaid"
+    }, 
+},{ type: "default",
+    link: {
+    text: "116thinitiative@gmail.com",
+    src: "mailto:116thinitiative@gmail.com"
+    },
+}, {
+    type: "default",
+    link: {
+        text: "Join our mailing list!",
+        src: "/events"
+    },
+},
+];
+
 export type PublicationsCardProps = {
     title: string,
     publishedWhere: string,
+    date: string,
     preview: string,
     to: string,
 };
 
 export const publications: PublicationsCardProps[] =[{
-    title:'Affirmative Action Statement',
-    publishedWhere:'Bwog Article',
-    preview:'Leaders at Columbia and Barnard have begun to respond after the Supreme Court’s June 29 ruling that race-conscious college admissions policies are in violation of the Fourteenth Amendment’s Equal Protection Clause. The ruling, made in two companion cases filed by the group Students for Fair Admission against both Harvard and the University of North Carolina, Chapel Hill, effectively struck down affirmative action programs. In the hours after the ruling, both Columbia College Dean Josef Sorrett and Barnard President Laura Rosenbury made statements to their respective student bodies, the full texts of which can be found below. In Rosenbury’s email to students, the newly-inaugurated president stated that, “For the past several months, leaders at the College have been meeting to anticipate and plan for what this ruling might require of us to adapt and fulfill our mission to build a richly diverse student body,” and said the college will continue to provide updates about its strategy moving forward. Similarly, Dean Sorrett shared Columbia’s official statement, and wrote that the college “remain[s] committed to fostering and sustaining a diverse community of students as a core value central to our mission.”',
+    title:'Columbia Community Responds As SCOTUS Strikes Down Affirmative Action',
+    publishedWhere:'Bwog',
+    date: 'Jul 14, 2023',
+    preview:'In addition to publicly condemning the Court’s decision, some student groups are taking action to combat potential effects of the ruling. The 116th Initiative, a mutual aid society run by Barnard and Columbia students, has released a resource guide containing information about a variety of educational opportunity programs serving low-income students of color. ',
     to:'https://bwog.com/2023/07/columbia-community-responds-as-scotus-strikes-down-affirmative-action/',             
 }, {
-    title:'Barnard Mutual Feature',
-    publishedWhere:'Bwog Article',
-    preview:'If you’re a member of the Barnard community this year, you’ve likely heard of Barnard Mutual Aid. Whether you’ve noticed them from the flyers scattered around campus, or their wildly popular social media posts, the group has become one of the fastest-growing—and arguably most important—organizations on campus. Still, if you’re not directly involved with the organization, you may not be familiar with its remarkable story, or the essential service it provides to low-income students. The idea for Barnard Mutual Aid first came to founder Avalon Zborovsky-Fenster (BC ‘24) in the fall of 2020, when, as a first-year, she noticed a recurring theme emerging in her conversations with fellow students. Again and again, she listened as peers described their struggles with increasing financial need as a result of the COVID-19 pandemic, and a lack of access they faced to resources at Barnard as a result. “Not having enough money for something doesn’t end there,” she explains. “It means not being able to take on an unpaid internship, not being able to buy food, not having transportation or access to basic necessities—it means not having access to a lot of the most important things the college has to offer.” ',
+    title:'Barnard Mutual Aid Builds A Culture Of Community Care',
+    publishedWhere:'Bwog',
+    date: 'Oct 28, 2021',
+    preview:'“Students feel compelled to give to others,” she says, “even when they’re struggling, because the systems that are in place to support them aren’t working the way they’re supposed to, or at least the way they’re credited to.” ',
     to:'https://bwog.com/2021/10/barnard-mutual-aid-builds-a-culture-of-community-care/'
 },
 
 {
-    title:'Barnard Mutual Feature',
-    publishedWhere:'Columbia Spectator Article',
-    preview:'When a fire broke out on the sixth floor of Barnard’s Brooks Hall on Monday night, Ilana Talamo, BC ’25, had no idea that meant she would not be able to return to her room for up to a week. Talamo was in a Columbia friend’s dorm room and, after hearing about the fire, assumed she would have to spend the night there. But when she heard that the evacuation had lifted and students would be allowed back into the dorm, she headed back toward her room on the fifth floor of Brooks Hall. When Talamo arrived, she was forced to wait in Barnard Hall for an hour before receiving a text from Barnard’s Community Accountability, Response, and Emergency Services. The message alerted Talamo that her dorm room was considered an “affected area” and that she should relocate to LeFrak Center for further instructions. Residents of the fifth, sixth, and seventh floors of Brooks Hall were split into groups and given five to 10 minutes to collect enough personal belongings from their rooms to last “anywhere from 12 to 24 hours.” They were given the option of staying with friends, temporarily moving to Plimpton Hall, or relocating to Barnard housing on 121st Street.',
+    title:'After Barnard fire, students come together to support those in need',
+    publishedWhere:'Spec',
+    date: 'Oct 23, 2021',
+    preview:'“Twenty four hours ago, I was just like, ‘How is my friend going to pay for all [of] this?’” de Castro Basto said. “[I am] still in disbelief.” Zborovsky-Fenster started the Barnard Mutual Aid Network last summer to raise and distribute funds to Barnard students in need of financial assistance. In less than 24 hours, Barnard Mutual Aid had raised over $10,000 for the victims of the fire and other students in financial need; according to its Instagram account, it is aiming for $15,000."',
     to:'https://www.columbiaspectator.com/news/2021/10/22/after-barnard-fire-students-come-together-to-support-those-in-need/'
 },
 
@@ -119,3 +150,10 @@ export const eventCards: EventCardType[] = [{
     endDate: new Date(2023, 11, 10),
     description:"Hosted alongside the Columbia First-Generation Low Income Network and the Columbia Housing Equity Project, students – specifically those that face financial burdens – are invited to bring in their clothes and exchange them with others. This event provides a welcoming and non-judgemental way for them to get assistance, while encouraging cyclicality on campus. Many students are able to find stylish and unique pieces that reaffirm their identities and help them make friends in the process!",
 },]
+
+export type AccordionData = {
+    title: string;
+    content: ReactNode;
+  };
+
+

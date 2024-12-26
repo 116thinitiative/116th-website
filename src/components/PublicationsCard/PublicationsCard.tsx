@@ -8,12 +8,14 @@ function PublicationsCard(props: PublicationsCardProps){
             <Link 
             to={props.to}
             target="_blank">
-                <div className='card-holder'>
-                    <h1>{props.title}</h1>
-                    <h2>{props.publishedWhere}</h2>
-                    <p>{props.preview}</p>
-                    <div className='fade-out'></div>
-                </div>
+            <table>
+            <tr>
+                <td className='where'>{props.publishedWhere}</td>
+                <td><p className='title'>{props.title}</p>
+                <p>{props.date}</p>
+                <p className='preview'>{props.preview}</p></td>
+            </tr>
+                </table>
             </Link>
         </div>
     );

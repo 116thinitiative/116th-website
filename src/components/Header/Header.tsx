@@ -10,11 +10,11 @@ function Header(){
     const [isHidden, setIsHidden] = useState(true);
 
     return (
-        <div className="header">
-            <div className="logo-and-menu">
-                <Logo height="15vh"/>
-                <div 
-                className='icon-holder'
+        
+        <>
+            <div className="logo">
+                <Logo height="8%"/>
+                <div className='icon-holder'
                 style={{
                     width: "wrap-content",
                     height: "wrap-content"
@@ -38,9 +38,13 @@ function Header(){
                     }}/>
                 </div>
             </div>
-            
+            <div className="menu">
             <HeaderLinks links={navLinks}/>
-        </div>
+            </div>  
+            <hr className="line"></hr>
+        </> 
+       
+            
     );
 }
 

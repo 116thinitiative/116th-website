@@ -1,33 +1,32 @@
 .header-links {
-    margin-right: 30px;
     font-size: 1.2rem;
-}
+    text-align: right;
+    line-height:40px;
+    height:60px;
+    background-color: #fdfdfd;
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 200px;
 
-.header-links ul{
-    list-style-type: none;
-
-    display: flex;
-    align-items: center;
-    gap: 35px;
-}
-
-.header-links li{
-    height: fit-content;
-    width: fit-content;
-}
-
-.header-links .default-item{
+} .headertext {
     display: inline-block;
-    position: relative;
+    margin-right: 6%;
+    padding-top: 8px;
 }
+
+/*.header-links .default-item{
+    display: inline-block;
+    border-radius: 8px;
+}*/
 
 .header-links a {
     text-decoration: none;
-    color: black;
-    transition: 0.2s;
+    color: #3b57a7;
+    text-align:center;
+    margin-right: 20px;
 }
 
-.header-links .default-item:after {
+/*.header-links .default-item:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -35,7 +34,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color: white;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -43,16 +42,16 @@
 .header-links .default-item:hover:after{
    transform: scaleX(1);
    transform-origin: bottom left;
+ }*/
+
+ .header-links a:hover {
+    color: #A8008F;
+    text-decoration:underline;
+    transition: 0.5s;
  }
 
-.instagram-icon{
-    height: 30px;
-}
-
-@media only screen and (max-width: 720px){
-    .header-links ul{
-        font-size: 0.8em;
-        gap: 20px;
-        flex-direction: column;
+@media screen and (max-width: 712px){
+    .headertext {
+    display: none;
     }
 }

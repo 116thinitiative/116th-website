@@ -17,7 +17,7 @@
     background-color: white;
     position: absolute;
     max-height: 0px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     transition: 0.2s;
 }
 

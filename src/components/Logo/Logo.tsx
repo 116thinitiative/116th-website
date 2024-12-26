@@ -17,11 +17,11 @@ function Logo(props: LogoProps) {
             <img 
             src={logo} 
             className="logo" 
-            style={{
+            /*style={{
                 height: props.height, 
                 width: props.width,
                 margin: props.margin,
-            }}/>
+            }}*//>
         </Link>
         </>
     );

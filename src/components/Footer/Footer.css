@@ -1,29 +1,19 @@
 .footer {
-    background-color: black;
     bottom: 0;
     width: 100%;
-    height: 120px;
-
+    height: 60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:right;
     flex:1;
-
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 120px;
 }
 
-@media screen and (max-width: 800px){
-    .footer{
-        font-size: 0.6em;
-        overflow: scroll;
-    }
-}
 
 @media only screen and (max-width: 650px){
     .footer{
         height: fit-content;
-    }
-    .footer{
         flex-direction: column;
+        margin-left: -12px;
     }
 }
