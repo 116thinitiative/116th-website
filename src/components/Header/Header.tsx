@@ -13,7 +13,7 @@ function Header(){
         
         <>
             <div className="logo">
-                <Logo height="8%"/>
+                <Logo /*height="8%"*//>
                 <div className='icon-holder'
                 style={{
                     width: "wrap-content",

@@ -2,10 +2,10 @@ import './Events.css'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import Sidebar from '../components/Sidebar/Sidebar';
-import ImageTitle from '../components/ImageTitle/ImageTitle';
+/*import ImageTitle from '../components/ImageTitle/ImageTitle';
 import eventsImage from '../assets/images/events.jpg'
 import EventCard from '../components/EventCard/EventCard';
-import { eventCards } from '../shared/globals';
+import { eventCards } from '../shared/globals';*/
 
 function Events(){
     return (

@@ -1,9 +1,9 @@
 import './HeaderLinks.css'
 import { navLinkItem } from '../../shared/globals';
-import Dropdown from '../Dropdown/Dropdown';
+/*import Dropdown from '../Dropdown/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import Button from '../Button/Button';
+import Button from '../Button/Button';*/
 import { Link } from 'react-router-dom'
 
 type HeaderLinksProps = {
