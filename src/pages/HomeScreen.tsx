@@ -17,7 +17,6 @@ function HomeScreen() {
     return (
         <>
             <Header />
-            <Sidebar />
             <div className='blurb'>
             <p>Who we are:</p>
             <br></br>

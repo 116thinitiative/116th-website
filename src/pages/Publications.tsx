@@ -1,6 +1,5 @@
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
-import Sidebar from '../components/Sidebar/Sidebar';
 import './Publications.css'
 import PublicationsCard from '../components/PublicationsCard/PublicationsCard';
 import { publications } from '../shared/globals';
@@ -11,7 +10,6 @@ function Publications(){
     return(
         <>
             <Header />
-            <Sidebar />
             <div className='blurb'><p className='heading'>Press:</p></div>
             <img src={about1} className='pubs-image'></img>
             <div className='blurb'>

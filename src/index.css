@@ -16,12 +16,6 @@ body,
   font-family: "Inter", Helvetica, sans-serif;
 }
 
-#root {
-
-  /*contain: paint;
-  min-height: 100vh;*/
-}
-
 h1, h2, p {
   margin: 0px;
 }

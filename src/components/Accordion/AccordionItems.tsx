@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { AccordionData } from '../../shared/globals';
-import './AccordionItems.css'
+import './AccordionItems.css';
 
 function AccordionItems({
   data,

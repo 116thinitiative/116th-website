@@ -1,14 +1,12 @@
 import './ContactUs.css'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
-import Sidebar from '../components/Sidebar/Sidebar';
 import contact from '../assets/images/contact.jpg'
 
 function ContactUs(){
     return (
         <>
             <Header />
-            <Sidebar />
             <div className="blurb">
                 <p className="contacttext">Contact us:</p>
                 <p className="contacttext">You can email us at <a href="mailto:116thinitiative@gmail.com">

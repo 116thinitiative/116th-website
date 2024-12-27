@@ -1,7 +1,6 @@
 import './AboutUs.css'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
-import Sidebar from '../components/Sidebar/Sidebar';
 import Accordion from '../components/Accordion/Accordion';
 import about1 from '../assets/images/about1.jpg';
 /*import { Link } from 'react-router-dom';*/
@@ -83,7 +82,6 @@ function AboutUs (){
     return (
         <>
             <Header/>
-            <Sidebar />
             <div className='blurb'>
             <p className='aboutus'>About us:</p>
             <p className='aboutus'>

@@ -2,6 +2,8 @@ import { navLinks } from '../../shared/globals';
 import Logo from '../Logo/Logo';
 import './Header.css'
 import HeaderLinks from './HeaderLinks';
+import Hamburger from '../Hamburger/Hamburger';
+import Sidebar from '../Sidebar/Sidebar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
@@ -41,7 +43,8 @@ function Header(){
             <div className="menu">
             <HeaderLinks links={navLinks}/>
             </div>  
-            <hr className="line"></hr>
+            <Hamburger links={navLinks}/>
+            <div className="sidebar"><Sidebar/></div>
         </> 
        
             
