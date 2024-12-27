@@ -1,7 +1,6 @@
 import './HomeScreen.css'
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import Sidebar from "../components/Sidebar/Sidebar";
 import index1 from '../assets/images/index1.jpg';
 import index2 from '../assets/images/index2.jpg';
 //import descriptionImage from '../assets/images/description-image.jpeg'
