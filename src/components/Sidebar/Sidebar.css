@@ -1,7 +1,7 @@
 .request {
     width: 150px;
     position:fixed;
-    bottom:200px;
+    bottom:250px;
     left: 30px;
     filter: drop-shadow(-2px 2px 2px gray);
 }
@@ -26,12 +26,12 @@
 
 @media screen and (max-width: 712px){
     .request {
-    top: 100px;
-    left: 20px;
+    top: 106px;
+    left: 30px;
     width: 90px;
     }
     .donate {
-    top: 100px;
+    top: 66px;
     left: 140px;
     width: 90px;
     }
