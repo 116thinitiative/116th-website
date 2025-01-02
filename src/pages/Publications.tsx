@@ -3,7 +3,7 @@ import Header from '../components/Header/Header';
 import './Publications.css'
 import PublicationsCard from '../components/PublicationsCard/PublicationsCard';
 import { publications } from '../shared/globals';
-import about1 from '../assets/images/publicationsimg.jpg';
+import about1 from '../assets/images/publicationsimg.png';
 
 function Publications(){
     

@@ -14,6 +14,7 @@ function Events(){
             <br></br>
             <p>Page under construction—check back soon...</p>
             </div>
+            <div className='fill'></div>
             {/*
             <ImageTitle 
             title="Events"

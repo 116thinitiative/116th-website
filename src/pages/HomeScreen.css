@@ -6,6 +6,8 @@ body {
     position:relative;
     left: 240px;
     border-radius: 20px;
+    border: 2px solid #3B57A7;
+    transform: rotate(1deg);
 }
 
 .img2 {
@@ -14,6 +16,8 @@ body {
     float: right;
     right: 10%;
     border-radius: 20px;
+    transform: rotate(-1.8deg);
+    border: 2px solid #3B57A7;
 }
 .blurb {
     clear: right;
@@ -23,6 +27,9 @@ body {
     padding-bottom: 24px;
     font-size:20px;
     line-height:24px;
+} a {
+    color:#A8008F;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 900px) {

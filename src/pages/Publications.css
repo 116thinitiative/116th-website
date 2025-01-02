@@ -11,16 +11,14 @@
     padding-top: 24px;
 }
 
-.heading {
-    padding-bottom: 24px;
-}
-
 .pubs-image {
     width: 569px;
     position:relative;
     float: right;
     border-radius: 20px;
     right: 10%;
+    border: 2px solid #3B57A7;
+    transform: rotate(2deg);
 }
 
 @media only screen and (max-width: 900px){

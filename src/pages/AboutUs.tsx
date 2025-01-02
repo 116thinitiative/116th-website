@@ -2,7 +2,7 @@ import './AboutUs.css'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import Accordion from '../components/Accordion/Accordion';
-import about1 from '../assets/images/about1.jpg';
+import about1 from '../assets/images/about1.png';
 /*import { Link } from 'react-router-dom';*/
 
 function AboutUs (){
@@ -83,7 +83,7 @@ function AboutUs (){
         <>
             <Header/>
             <div className='blurb'>
-            <p className='aboutus'>About us:</p>
+            <p className='aboutheading'>About us:</p>
             <p className='aboutus'>
             The 116th Initiative is a two-year-old grassroots mutual aid collective of BIPOC, allies, first-generation and low income students from 
             Barnard College and Columbia University. We utilize creative organizing strategies to redistribute wealth and resources amongst financially 

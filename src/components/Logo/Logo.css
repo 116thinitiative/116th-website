@@ -1,3 +1,4 @@
-img {
+.logo {
     cursor: pointer;
+    filter: brightness(.75) saturate(1.2) hue-rotate(16deg);
 }

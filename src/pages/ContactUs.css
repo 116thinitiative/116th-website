@@ -1,26 +1,21 @@
 body {
     padding-top: 100px;
-}
-
-.contacttext {
+} .contacttext {
     padding-bottom: 24px;
-}
-
-a {
+} a {
     color: #3B57A7;
     transition: 0.2s;
-}
-
-a:hover {
+    text-decoration:underline;
+} a:hover {
     color: #A8008F;
-}
-
-.contactimg {
+} .contactimg {
     width: 569px;
     position:relative;
     float: right;
     right: 10%;
     border-radius: 20px;
+    border: 2px solid #3B57A7;
+    transform: rotate(-1.4deg);
 }
 
 @media screen and (max-width: 900px){

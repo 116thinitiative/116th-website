@@ -1,7 +1,7 @@
 import './ContactUs.css'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
-import contact from '../assets/images/contact.jpg'
+import contact from '../assets/images/contact.png'
 
 function ContactUs(){
     return (
