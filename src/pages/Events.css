@@ -31,9 +31,9 @@
     text-align: center;
 }
 
-
-.fill {
-    height: 360px;
+.frooter {
+    position:fixed;
+    bottom:5px;
+    right: 5px;
 }
-
 

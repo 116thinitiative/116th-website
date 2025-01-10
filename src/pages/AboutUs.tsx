@@ -3,6 +3,8 @@ import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import Accordion from '../components/Accordion/Accordion';
 import about1 from '../assets/images/about1.png';
+import about2 from '../assets/images/about2.png';
+import about3 from '../assets/images/about3.png';
 /*import { Link } from 'react-router-dom';*/
 
 function AboutUs (){
@@ -21,7 +23,7 @@ function AboutUs (){
             schoolwork and career aspirations. Unlike the university, we are able to swiftly and sympathetically address the problems faced by students while 
             also creating trusting, person-to-person connections.
             </p>
-            <img className='aboutimg2' src={about1}></img>
+            <img className='aboutimg2' src={about2}></img>
             </div>
           ),
         },
@@ -38,7 +40,7 @@ function AboutUs (){
             In addition to the mutual aid fund, The 116th Initiative also organizes the Community Closet Pop-Up, the 116th Art Fair, and other 
             fundraising/educational events. Visit our <a href="/events">Events</a> page to learn more!
             </p>
-            <img className='aboutimg3' src={about1}></img>
+            <img className='aboutimg3' src={about3}></img>
             </div>
           ),
         },

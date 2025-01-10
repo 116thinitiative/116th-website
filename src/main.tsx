@@ -12,6 +12,7 @@ import Publications from './pages/Publications';
 import ContactUs from './pages/ContactUs';
 import ScrollToTop from './ScrollToTop';
 import Events from './pages/Events';
+import Gallery from './pages/Gallery';
 
 //using react router for navigation
 const router = createBrowserRouter([
@@ -42,6 +43,12 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <Events />,
+    errorElement: <ErrorPage />,
+    loader: ScrollToTop
+  }, 
+  {
+    path: "/gallery",
+    element: <Gallery />,
     errorElement: <ErrorPage />,
     loader: ScrollToTop
   }

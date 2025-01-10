@@ -17,7 +17,7 @@ function ContactUs(){
                 form</a>.</p>
             </div>
             <img className="contactimg" src={contact}></img>
-            <Footer />
+            <div className="frooter"><Footer /></div>
         </>
     );
 }

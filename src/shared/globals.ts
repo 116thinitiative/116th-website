@@ -30,7 +30,7 @@ export const navLinks: navLinkItem[] = [{
 {
     type: "default",
     link: {
-        text: "Press & Media",
+        text: "Press",
         src: "/publications"
     },
    
@@ -38,8 +38,8 @@ export const navLinks: navLinkItem[] = [{
 {
     type: "default",
     link: {
-        text: "Events",
-        src: "/events"
+        text: "Gallery",
+        src: "/gallery"
     },
 },
 ];
