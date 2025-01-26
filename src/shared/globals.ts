@@ -155,5 +155,3 @@ export type AccordionData = {
     title: string;
     content: ReactNode;
   };
-
-

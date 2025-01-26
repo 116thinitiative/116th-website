@@ -1,0 +1,11 @@
+.galleryContainer {
+    padding-left: 230px;
+    padding-right: 5%;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .galleryContainer {
+        padding-left: 25%;
+    } 
+} 

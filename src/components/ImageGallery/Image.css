@@ -1,0 +1,27 @@
+.images {
+    cursor:pointer;
+    margin: 10px;
+}
+
+.images:hover {
+    filter:brightness(60%);
+}
+.images.little {
+    width: 212px;
+    height: 150px;
+    object-fit:cover;
+    cursor:-webkit-zoom-in;
+}
+
+.images.big {
+    width: 540px;
+    cursor:-webkit-zoom-out;
+
+}
+
+@media only screen and (max-width: 750px) {
+    .images.big {
+        width: 350px;
+        height:auto;
+    } 
+} 
