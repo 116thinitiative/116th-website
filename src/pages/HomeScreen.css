@@ -42,4 +42,8 @@ body {
     .blurb {
         padding-left: 26.7%;
     } 
+} @media only screen and (max-width: 500px) {
+    .blurb {
+        padding-left: 30px;
+    } 
 } 

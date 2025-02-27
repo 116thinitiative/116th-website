@@ -30,6 +30,13 @@ export const navLinks: navLinkItem[] = [{
 {
     type: "default",
     link: {
+        text: "Events",
+        src: "/events"
+    },
+},
+{
+    type: "default",
+    link: {
         text: "Press",
         src: "/publications"
     },
@@ -74,7 +81,7 @@ export const footerLinks: footerLinkItem[] = [{
     type: "default",
     link: {
         text: "Join our mailing list!",
-        src: "/events"
+        src: "https://docs.google.com/forms/d/e/1FAIpQLSf-wrx773V5_mtBLkF0Rj6RDvYdyFKe8a9_NFpryXApG0Sl7A/viewform"
     },
 },
 ];
@@ -113,19 +120,19 @@ export const publications: PublicationsCardProps[] =[{
 
 export type EventCardType = {
     title: string,
-    startDate: Date,
-    endDate: Date,
+    date: string,
     description: string,
-    location?: string,
+    imgLink?: string,
+    rsvp?: string,
 }
 
 export const eventCards: EventCardType[] = [{
-    title:"Potluck Picnic",
-    startDate: new Date(2023, 8, 24, 16, 0, 0),
-    endDate: new Date(2023, 8, 24, 18, 0, 0),
-    description:"Join 116th at our first official meeting of the year! Bring your snacks, bring your friends, and bring yourself! We’ll be chatting about what the 116th Initiative is, who we are, what we aim to do and ways you can get involved/help out. Copies of our zine will also be available for purchase (all sales go straight to the mutual aid fund)!",
-    location: "Sakura Park",
-},
+    title:"MUTUAL AID IS LOVE",
+    date: "February 28, 2025 | 8pm–11pm | 501 Dodge",
+    description:"Join To Resist is to Love, the 116th Initiative, Postcrypt Coffee House, and WBAR for a mutual aid concert! All ticket proceeds will be donated to the 116th Initiative. Featuring musicians from Postcrypt Coffee House & WBAR, custom To Resist is To Love prints, and festive loving-season goodies. We’re excited to celebrate the season of love by giving back to the community we love.",
+    imgLink: "../../assets/images/events/event1.jpg",
+    rsvp: "https://www.eventbrite.com/e/116-x-tritl-x-postcrypt-x-wbar-mutual-aid-is-love-tickets-1257308616919?aff=oddtdtcreator",
+}/*,
 {
     title:"Community Closet Sort and Pop-Up",
     startDate: new Date(2023, 9, 7),
@@ -149,7 +156,7 @@ export const eventCards: EventCardType[] = [{
     startDate: new Date(2023, 11, 9),
     endDate: new Date(2023, 11, 10),
     description:"Hosted alongside the Columbia First-Generation Low Income Network and the Columbia Housing Equity Project, students – specifically those that face financial burdens – are invited to bring in their clothes and exchange them with others. This event provides a welcoming and non-judgemental way for them to get assistance, while encouraging cyclicality on campus. Many students are able to find stylish and unique pieces that reaffirm their identities and help them make friends in the process!",
-},]
+},*/]
 
 export type AccordionData = {
     title: string;

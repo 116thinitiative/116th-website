@@ -1,19 +1,14 @@
 .images {
     cursor:pointer;
     margin: 10px;
-}
-
-.images:hover {
+} .images:hover {
     filter:brightness(60%);
-}
-.images.little {
+} .images.little {
     width: 212px;
     height: 150px;
     object-fit:cover;
     cursor:-webkit-zoom-in;
-}
-
-.images.big {
+} .images.big {
     width: 540px;
     cursor:-webkit-zoom-out;
 

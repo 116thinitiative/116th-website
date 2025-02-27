@@ -42,7 +42,9 @@ function Header(){
             </div>
             <div className="menu">
             <HeaderLinks links={navLinks}/>
+            <hr></hr>
             </div>  
+
             <Hamburger links={navLinks}/>
             <div className="sidebar"><Sidebar/></div>
         </> 

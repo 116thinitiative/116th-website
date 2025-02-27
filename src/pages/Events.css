@@ -9,9 +9,9 @@
 
 .recurring-events-container li{
     margin: 20px;
-}
+} 
 
-.future-events-container{
+/*.future-events-container{
     width: 100%;
     height: fit-content;
     
@@ -22,7 +22,7 @@
     box-sizing: border-box;
     padding: 80px;
     background-color: #52B6DB;
-}
+}*/
 
 .future-events-container h1{
     font-size: 3.0rem;
@@ -31,9 +31,8 @@
     text-align: center;
 }
 
-.frooter {
-    position:fixed;
-    bottom:5px;
-    right: 5px;
+@media screen and (max-width: 900px){
+    .frooter {
+        position:relative;
+    }
 }
-

@@ -87,7 +87,7 @@ function AboutUs (){
             <div className='blurb'>
             <p className='aboutheading'>About us:</p>
             <p className='aboutus'>
-            The 116th Initiative is a two-year-old grassroots mutual aid collective of BIPOC, allies, first-generation and low income students from 
+            The 116th Initiative is a three-year-old grassroots mutual aid collective of BIPOC, allies, first-generation and low income students from 
             Barnard College and Columbia University. We utilize creative organizing strategies to redistribute wealth and resources amongst financially 
             struggling and underserved students across our campuses in efforts to combat historical socioeconomic barriers that limit equitable access 
             to higher education. We assist with tuition payment, rent, medical care/bills, psychiatric care, groceries and transportation.

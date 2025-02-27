@@ -48,7 +48,8 @@
     left:3.3%;
     }
 }
-@media screen and (max-height: 480px) {
+
+@media screen and (max-height: 527px) {
     .request {
     display: none;
 

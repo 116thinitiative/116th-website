@@ -27,5 +27,13 @@ body {
         width: 63.2%;
     }
     
+} @media screen and (max-width: 650px){
+    .frooter {
+        height: fit-content;
+        flex-direction: column;
+        margin-left: -12px;
+        right: auto;
+    }
+    
 }
 

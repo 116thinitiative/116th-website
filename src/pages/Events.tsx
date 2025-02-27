@@ -1,6 +1,8 @@
 import './Events.css'
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
+import EventCard from '../components/EventCard/EventCard';
+import { eventCards } from '../shared/globals';
 /*import ImageTitle from '../components/ImageTitle/ImageTitle';
 import eventsImage from '../assets/images/events.jpg'
 import EventCard from '../components/EventCard/EventCard';
@@ -10,9 +12,20 @@ function Events(){
     return (
         <>
             <Header />
-            <div className='blurb'><p>Events</p>
-            <br></br>
-            <p>Page under construction—check back soon...</p>
+            <div className='blurb'>       
+            <div className="future-events-container">
+                <p>Upcoming events:</p>
+                {eventCards.map((card) => {
+                    return (
+                        <EventCard 
+                        title={card.title}
+                        date={card.date}
+                        description={card.description}
+                        imgLink={card.imgLink}
+                        rsvp={card.rsvp}/>
+                    )
+                })}
+            </div>
             </div>
             {/*
             <ImageTitle 
