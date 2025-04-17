@@ -94,7 +94,15 @@ export type PublicationsCardProps = {
     to: string,
 };
 
-export const publications: PublicationsCardProps[] =[{
+export const publications: PublicationsCardProps[] =[
+{
+    title:'Mutual Aid in New York City: Student-led Aid and Efforts, case study by Yeeun Yoo',
+    publishedWhere:'UPenn',
+    date:"May 2023",
+    preview:'Through this study, I will be focusing on college-campus mutual aid by conducting a case study of the 116th Initiative of Barnard College. By analyzing the organizing and mobilizing efforts of the 116th Initiative, I hope to examine the parallels between college campus mutual aid and neighborhood-based initiatives.',
+    to:"https://penniur.upenn.edu/uploads/media/Final_Poster_YeeunYoo.pdf"
+    
+}, {
     title:'Columbia Community Responds As SCOTUS Strikes Down Affirmative Action',
     publishedWhere:'Bwog',
     date: 'Jul 14, 2023',
