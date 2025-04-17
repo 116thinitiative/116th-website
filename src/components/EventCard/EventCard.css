@@ -16,6 +16,11 @@
     border-radius: 10px;
     display: inline-block;
     vertical-align: top;
+    margin-bottom: 40px;
+} .img-container {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
 } 
 /*.event-card{
     width: 80vw;
@@ -39,12 +44,14 @@
 @media screen and (max-width: 900px){
     .event-img {
         /*width:49%;*/
+        margin-bottom: 0px;
     }
     .event-desc { 
         display:block;
         width: 100%;
         padding-left:0px;
         padding-top: 10px;
+        padding-bottom:40px;
     }
 }
 
@@ -54,11 +61,13 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+        margin-bottom: 10px;
     }
     .event-desc { 
         display:block;
         width: 100%;
         padding-left:0px;
         padding-top: 10px;
+        padding-bottom:40px;
     }
 }

@@ -1,17 +1,33 @@
 import { EventCardType } from '../../shared/globals';
 import './EventCard.css'
-import eventimg from '../../assets/images/events/event1.jpg';
 
-function EventCard(props: EventCardType){
+type EventImg = {
+    eventImg: string
+} 
+
+type EventType = {
+    eventImgArr: string
+} & EventCardType
+
+
+
+function EventImgs(props: EventImg){
+   return (
+        <img className='event-img' src={props.eventImg}></img>
+   )
+}
+
+function EventCard(props: EventType){
     
     return (
         <div className='event-card'>
-            <img className='event-img' src={eventimg}></img>
+            <div className='img-container'>
+                    <EventImgs eventImg={props.eventImgArr}/>
+            </div>
             <div className='event-desc'>
                 <p className='event-title'>{props.title}</p> 
                 <p>{props.date}</p>
                 <p className='event-desc-text'>{props.description}</p>
-                <p className='event-desc-text'><a href={props.rsvp}>RSVP</a></p>
             </div>
         </div>
 

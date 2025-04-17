@@ -23,13 +23,15 @@
     padding: 80px;
     background-color: #52B6DB;
 }*/
-
-.future-events-container h1{
+.future-events-container {
+    padding-bottom:40px;
+}
+.past-events-container h1{
     font-size: 3.0rem;
     font-weight: 100;
     color: black;
     text-align: center;
-}
+} 
 
 @media screen and (max-width: 900px){
     .frooter {

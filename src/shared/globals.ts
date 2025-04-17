@@ -122,17 +122,32 @@ export type EventCardType = {
     title: string,
     date: string,
     description: string,
-    imgLink?: string,
     rsvp?: string,
 }
 
-export const eventCards: EventCardType[] = [{
+export const eventCards: EventCardType[] = [
+{
+    title:"116th x BCRW Wealth Redistribution Workshop",
+    date: "March 26, April 2, April 9, April 16, 2025 | 6:30-8pm | 6th Fl. Milstein (BCRW)",
+    description: "How do we understand wealth and class privilege? What is the difference between philanthropy and mutual aid? What does reparations look like today? Join the 116th Initiative for a three-part workshop series to talk about equitable wealth redistribution.",
+    rsvp:""
+}, {
+    title:"116th x FLI Network Bakesale",
+    date: "March 28, 2025 | 12pm | Lerner Ramps",
+    description: "Come pick up some sweet treats from the 116th Initiative and FLI Network! All donations go to the 116th mutual aid fund."
+}, {
+    title:"Repair and Rewear",
+    date:"April 7, 2025 | 5:30-7:45pm | Barnard Design Center",
+    description: "The 116th Initiative and Barnard Design Center present “Repair & Rewear”, an opportunity to sew, patch, and breathe new life into your wardrobe while promoting sustainability and economic justice. Bring clothes you’d like to refresh and repair, and bring any extra pieces you wish to donate. Learn essential mending skills and give your favorite items a longer life.",
+    rsvp:""
+}, {
     title:"MUTUAL AID IS LOVE",
-    date: "February 28, 2025 | 8pm–11pm | 501 Dodge",
+    date: "February 28, 2025 | 8–11pm | 501 Dodge",
     description:"Join To Resist is to Love, the 116th Initiative, Postcrypt Coffee House, and WBAR for a mutual aid concert! All ticket proceeds will be donated to the 116th Initiative. Featuring musicians from Postcrypt Coffee House & WBAR, custom To Resist is To Love prints, and festive loving-season goodies. We’re excited to celebrate the season of love by giving back to the community we love.",
-    imgLink: "../../assets/images/events/event1.jpg",
     rsvp: "https://www.eventbrite.com/e/116-x-tritl-x-postcrypt-x-wbar-mutual-aid-is-love-tickets-1257308616919?aff=oddtdtcreator",
-}/*,
+}, 
+
+/*,
 {
     title:"Community Closet Sort and Pop-Up",
     startDate: new Date(2023, 9, 7),
