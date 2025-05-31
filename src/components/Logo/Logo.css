@@ -1,4 +1,4 @@
 .logo {
     cursor: pointer;
-    filter: brightness(.75) saturate(1.2) hue-rotate(16deg);
+    margin-top: 10px;
 }
